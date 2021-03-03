@@ -8,5 +8,6 @@ output: word_document
 ```{r}
 library(tidyverse)
 mpg
-
+ggplot (data = mpg, aes(x = cty, y = hwy)) +
+geom_point()
 ```
